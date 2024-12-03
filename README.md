@@ -14,16 +14,15 @@ Price delay measures the extent to which a stock's price incorporates new inform
 ### **Metrics Used**
 Three main delay measures are derived using regression on lagged returns:
 1. **\(D_1\)**: Fraction of return variance explained by lagged market returns.
+2. 
    $$D_1 = 1 - \frac{R^2_{\text{restricted}}}{R^2_{\text{unrestricted}}}$$
    Where \(R^2_{\text{restricted}}\) excludes lagged returns and \(R^2_{\text{unrestricted}}\) includes them.
-2. **\(D_2\)**: Weighted lag coefficients:
-   \[
-   D_2 = \frac{\sum_{n=1}^4 n \beta_{-n}}{\beta_0 + \sum_{n=1}^4 \beta_{-n}}
-   \]
-3. **\(D_3\)**: Weighted lag coefficients normalized by standard error:
-   \[
-   D_3 = \frac{\sum_{n=1}^4 n \frac{\beta_{-n}}{\text{SE}(\beta_{-n})}}{\frac{\beta_0}{\text{SE}(\beta_0)} + \sum_{n=1}^4 \frac{\beta_{-n}}{\text{SE}(\beta_{-n})}}
-   \]
+3. **\(D_2\)**: Weighted lag coefficients:
+4. 
+   \[D_2 = \frac{\sum_{n=1}^4 n \beta_{-n}}{\beta_0 + \sum_{n=1}^4 \beta_{-n}}\]
+5. **\(D_3\)**: Weighted lag coefficients normalized by standard error:
+6. 
+   \[D_3 = \frac{\sum_{n=1}^4 n \frac{\beta_{-n}}{\text{SE}(\beta_{-n})}}{\frac{\beta_0}{\text{SE}(\beta_0)} + \sum_{n=1}^4 \frac{\beta_{-n}}{\text{SE}(\beta_{-n})}}\]
 
 These metrics quantify how much and how quickly prices respond to market-wide news.
 

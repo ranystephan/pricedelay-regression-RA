@@ -112,10 +112,10 @@ The regression decomposes return variance:
 - **Immediate response**: Captured by \(\beta_0\).
 - **Delayed response**: Distributed across \(\beta_{-1}\) to \(\beta_{-4}\).
 
-The metrics \(D_1\), \(D_2\), and \(D_3\) summarize:
-- Variance fraction explained (\(D_1\)).
-- Weighted delay impact (\(D_2\)).
-- Normalized precision-weighted delay (\(D_3\)).
+The metrics $D_1$, $D_2$, and $D_3$ summarize:
+- Variance fraction explained ($D_1$).
+- Weighted delay impact ($D_2$).
+- Normalized precision-weighted delay ($D_3$).
 
 ---
 

@@ -14,9 +14,7 @@ Price delay measures the extent to which a stock's price incorporates new inform
 ### **Metrics Used**
 Three main delay measures are derived using regression on lagged returns:
 1. **\(D_1\)**: Fraction of return variance explained by lagged market returns.
-   $$
-   D_1 = 1 - \frac{R^2_{\text{restricted}}}{R^2_{\text{unrestricted}}}
-   $$
+   $$D_1 = 1 - \frac{R^2_{\text{restricted}}}{R^2_{\text{unrestricted}}}$$
    Where \(R^2_{\text{restricted}}\) excludes lagged returns and \(R^2_{\text{unrestricted}}\) includes them.
 2. **\(D_2\)**: Weighted lag coefficients:
    \[
